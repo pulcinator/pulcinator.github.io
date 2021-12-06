@@ -1,32 +1,32 @@
 testo {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 11pt;
+  font-family: "Arial", sans-serif;
+  font-size: 10pt;
 }
 
 l {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 11pt;
-  color:#00008B;
+  font-family: "Arial", sans-serif;
+  font-size: 10pt;
+  color:#006400;
 }
 
 l1 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 8pt;
-  color:#00008B;
+  font-family: "Arial", sans-serif;
+  font-size: 7pt;
+  color:#006400;
 } 
 
 h5 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 9pt;
+  font-family: "Arial", sans-serif;
+  font-size: 8pt;
   font-weight: bold;
 }
 
 p {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 14pt
+  font-family: "Arial", sans-serif;
+  font-size: 13pt
 }
 
 h6 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 8pt
+  font-family: "Arial", sans-serif;
+  font-size: 7pt
 }
