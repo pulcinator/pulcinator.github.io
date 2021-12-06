@@ -3,14 +3,20 @@ testo {
   font-size: 10pt;
 }
 
-l {
+testo#nomi {
+  font-weight: bold;
+  color: #006400;
+}
+
+a#link {
   font-family: "Arial", sans-serif;
   font-size: 10pt;
   color:#006400;
   font-variant: small-caps;
+  text-decoration: none;
 }
 
-l1 {
+a#link1 {
   font-family: "Arial", sans-serif;
   font-size: 7pt;
   color:#006400;
@@ -34,9 +40,4 @@ h6 {
 
 linea {
   color:#006400;
-}
-
-nomi {
-  font-weight: bold;
-  color: #006400;
 }
