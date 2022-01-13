@@ -1,0 +1,112 @@
+body {
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+
+nav {
+    float: left;
+    width: 8%;
+}
+
+nav ul {
+     margin: 30px;
+     padding: 5px;
+     width: 90%;
+     background: white;
+     background-color: #000000;
+     
+}
+
+nav li {
+     position: relative;
+     list-style: none;
+     margin: 0;
+}
+
+nav ul ul {
+    position: absolute;
+    top: -35px;
+    left: 85px;
+    display: none;
+}
+
+nav li a {
+    display: block;
+    padding: 5%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav li:hover {
+    background: #FFFF00;
+}
+
+nav li.submenu:hover {
+    background-color: #FFFF00;
+}
+
+nav ul.level1 li.submenu:hover ul.level2,
+nav ul.level2 li.submenu:hover ul.level3 {
+    display:block;
+}
+
+section#sinistra {
+  margin: 0px;
+  position: relative;
+  top: 20px;
+  left: 200px;
+  }
+
+
+section#singer {
+  margin: 0px;
+  position: relative;
+  width: 60%;
+  top: 20px;
+  left: 200px;
+  }
+  
+ 
+section#sinistra2 {
+  margin: 0px;
+  position: relative;
+  top: 20px;
+  left: 320px;
+  }
+
+ section#destra {
+  margin: 5px;
+  width: 20%;
+  position: relative;
+  top: -1880px;
+  left: 800px;
+  }
+
+section#singer2 {
+  position: relative;
+  top: -165px;
+  left: 500px;
+  background-color: #000000;
+  width: 17%;
+}
+
+parola {
+  background-color: #000000;
+  color: #FFFF00;
+}
+
+parola2 {
+  font-weight: bold;
+}
+
+a#collegamento {
+  background-color: #000000;
+  color: #FFF000;
+}
+
+footer {
+  color: #000000;
+}
+
+titlefooter {
+  font-weight: bold;
+}
