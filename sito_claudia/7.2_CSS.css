@@ -89,6 +89,15 @@ section#singer2 {
   width: 17%;
 }
 
+h2#header {
+  margin: 30px;
+}
+
+lettera {
+  background-color: #000000;
+  color: #FFFF00;
+}
+
 parola {
   background-color: #000000;
   color: #FFFF00;
