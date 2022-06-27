@@ -1,5 +1,8 @@
 body{
-background-image:url("https://i.imgur.com/pVX5zK7.jpeg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image:url("https://i.imgur.com/pVX5zK7.jpeg");
 }
 .navbar{
 	display:flex;
@@ -16,43 +19,16 @@ background-image:url("https://i.imgur.com/pVX5zK7.jpeg");
 .navbar a:hover{
 	color:#64398E;
 }
-.flex-container{
-	display:grid;
-	grid-template-columns:auto auto auto;
-	justify-content:center;
-	padding:45px;
-	margin-top:0px;
-	row-gap:50px;
+.img-container1{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	margin-top:5%;
+	text-align: center;
+	padding:10px;
+	gap:50px;	
 }
-.immagini{
-	display:grid;
-	grid-template-columns:auto auto auto;
-	grid-column: 1 / 4;
-	gap:50px;
-	justify-content:center;
-}
-.immagini img{
-  width:250px;
-}
-.testo{
-  display:grid;
-  grid-column: 1 / 4;
-  justify-content:center;
-}
-.testo p{
-  font-family:'Poppins', sans-serif;
-  font-size:15pt;
-  color:white;
-  text-align:center;
-  margin:0px;
-}
-.bottone{
-    display:grid;
-    grid-column: 1 / 4;
-	justify-content:center;
-}
-.bottone button{
-	margin:0px;
+button{
+	margin:40px;
 	background:none;
 	outline:none;
 	cursor:pointer;
@@ -114,49 +90,34 @@ body{
 @media (min-width: 481px) and (max-width: 1024px) {
 	.navbar a{
 		font-family:'Poppins', sans-serif;
-		font-size:14pt;
+		font-size:16pt;
 		color:white;
 		padding:15px 15px;
 		text-decoration:none;	
 }
 }
-@media (min-width: 481px) and (max-width: 1024px) {
-	.flex-container{
-		display:grid;
-		grid-template-columns:auto auto auto;
-		justify-content:center;
-		padding:45px;
-		margin-top:0px;
-		row-gap:30px;
+@media screen and (max-width: 1024px) and (min-width: 600px){
+.img-container1{
+	display:grid;
+	grid-template-columns:auto auto auto;
+	padding:10px;
+	gap:20px;
 }
 }
-@media (min-width: 481px) and (max-width: 1024px) {
-	.immagini{
-		display:grid;
-		grid-column: 1 / 4;
-		justify-content:center;
-		column-gap:20px;
+@media screen and (max-width: 601px) and (min-width: 480px){
+.img-container1{
+	display:grid;
+	grid-template-columns:auto auto;
+	padding:10px;
+	gap:20px;
 }
 }
-@media (min-width: 481px) and (max-width: 1024px) {
-	.immagini img{
-	  width:200px;
-}
-}
-@media (min-width: 481px) and (max-width: 1024px) {
-	.testo{
-	  display:grid;
-	  grid-column: 1 / 4;
-	  justify-content:center;
-}
-}
-@media (min-width: 481px) and (max-width: 1024px) {
-	.testo p{
-	  font-family:'Poppins', sans-serif;
-	  font-size:12pt;
-	  color:white;
-	  text-align:center;
-	  margin:0px;
+@media screen and (max-width: 481px) and (min-width: 200px){
+.img-container1{
+	display:grid;
+	grid-template-columns:auto;
+	padding:10px;
+	gap:20px;
 }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
@@ -169,7 +130,7 @@ body{
 		border:solid 3px white;
 		border-radius:250px;
 		font-family:'Poppins', sans-serif;
-		font-size:14pt;
+		font-size:16pt;
 		color:white;
 		text-align:center;
 		text-decoration:none;	
